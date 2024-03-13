@@ -1,0 +1,23 @@
+name: flutter_carpool_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+
+dependencies:
+  csc_picker: ^0.2.7
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
